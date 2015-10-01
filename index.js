@@ -52,6 +52,8 @@ module.exports = function execFileSubcommand(command, subcommand, args, options,
         ' Expected a list of arguments to be passed to' +
         ' `' + command + ' ' + subcommand + '` command.'
       );
+    } else {
+      args = [];
     }
   }
 
