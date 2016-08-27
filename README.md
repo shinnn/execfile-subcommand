@@ -3,7 +3,7 @@
 [![NPM version](https://img.shields.io/npm/v/execfile-subcommand.svg)](https://www.npmjs.com/package/execfile-subcommand)
 [![Build Status](https://travis-ci.org/shinnn/execfile-subcommand.svg?branch=master)](https://travis-ci.org/shinnn/execfile-subcommand)
 [![Coverage Status](https://img.shields.io/coveralls/shinnn/execfile-subcommand.svg)](https://coveralls.io/github/shinnn/execfile-subcommand)
-[![devDependency Status](https://david-dm.org/shinnn/execfile-subcommand/dev-status.svg)](https://david-dm.org/shinnn/execfile-subcommand#info=devDependencies)
+[![devDependencies Status](https://david-dm.org/shinnn/execfile-subcommand/dev-status.svg)](https://david-dm.org/shinnn/execfile-subcommand?type=dev)
 
 [`child_process#execFile`][execfile] with an additional `subcommand` argument
 
@@ -48,7 +48,7 @@ execFile('npm' ['install', 'babel'], () => {/* ... */});
 
 ## License
 
-Copyright (c) 2015 [Shinnosuke Watanabe](https://github.com/shinnn)
+Copyright (c) 2015 - 2016 [Shinnosuke Watanabe](https://github.com/shinnn)
 
 Licensed under [the MIT License](./LICENSE).
 
